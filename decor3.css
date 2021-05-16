@@ -2,6 +2,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.endOfPage {
+  text-align: right;
+}
 .container {
   width: 700px;
 }
@@ -10,12 +13,22 @@ body {
   border: 1px solid gray;
   border-radius: 5px;
   margin-top: 30px;
-  padding: 20px;
+  padding: 30px;
+  background-image: linear-gradient(
+    to top,
+    rgb(95, 92, 92) 3%,
+    #e3eeff 99%,
+    #e3eeff 100%
+  );
+  box-shadow: rgb(95, 92, 92);
 }
 
 .city {
-  font-size: 40px;
+  color: grey;
+  font-size: 45px;
   height: 20px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .icon {
@@ -24,4 +37,16 @@ body {
 
 .temp {
   font-size: 30px;
+}
+
+.time {
+  font-size: 25px;
+  color: rgba(84, 141, 155, 0.884);
+}
+
+.weather-forecast-temperature-max {
+  font-size: 20px;
+}
+.weather-forecast-temperature-min {
+  font-size: 13px;
 }
