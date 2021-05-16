@@ -103,7 +103,7 @@ function showTemperature(response){
   let descriptionElement= document.querySelector("#description-weather");
 
 
-  realTemp.innerHTML= `${temperature}`;
+  realTemp.innerHTML= `${temperature}º`;
   humidityElement.innerHTML= response.data.main.humidity;
   windElement.innerHTML= response.data.wind.speed;
   descriptionElement.innerHTML= response.data.weather[0].description;
